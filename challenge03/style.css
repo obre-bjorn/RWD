@@ -1,0 +1,42 @@
+
+
+*{
+    box-sizing: border-box;
+   
+}
+
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    max-width: 900px;
+    width: 80%;
+    margin: 0 auto;
+   
+}
+
+.hero{
+    background-color: #23424A;
+    color:  #FFFFFF;
+    padding: 100px 0;
+}
+
+.hero__text{
+    width: 70%;
+
+
+}
+
+
+.learn{
+    padding: 10px 20px;
+    font-size: 21px;
+    font-weight: 700;
+    
+    background-color: #38cfd9;
+    color: #23424A;
+    border: none;
+    border-radius: 2rem; 
+}
