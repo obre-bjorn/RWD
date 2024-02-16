@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    font-family: 'Playfair Display';
+}
+p, h2{
+    font-family: Roboto;
+    font-weight: 300;
+}
+h2{
+    text-transform: uppercase;
+    font-size: 18px;
+}
+header{
+    background-color: #f3eed4;
+    color: #824936;
+    min-height: 1128px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+header h1{
+    font-size: 60px;
+}
+.container{
+    width: 80%;
+    
+}
