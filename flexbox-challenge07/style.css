@@ -5,6 +5,7 @@
 }
 h1{
     font-family: 'Playfair Display';
+    margin-bottom: 1.5rem;
 }
 p, h2{
     font-family: Roboto;
@@ -17,7 +18,7 @@ h2{
 header{
     background-color: #f3eed4;
     color: #824936;
-    min-height: 1128px;
+    min-height: 660px;
     display:flex;
     align-items: center;
     justify-content: center;
@@ -25,8 +26,42 @@ header{
 }
 header h1{
     font-size: 60px;
+} 
+.section-one h1{
+    text-align: center;
+    margin: 3rem 0;
+}
+.section-one{
+    font-size: 36px;
+    color: #824936;
+}
+section{
+    padding: 6rem
+}
+.section-two,.section-three{
+    color: white;
+    text-align: left;
+}
+.section-two{
+    background-color: #222c2a;
+}
+.section-three{
+ background-color: #824936;
 }
 .container{
     width: 80%;
+    margin: 0 auto;
+    max-width: 1128px;
+    /* background-color: blue; */
     
+}
+.row{
+    display: flex;
+    /* width: 80%; */
+    justify-content: space-between;
+    /* align-items: center; */
+    font-size: 21px;
+}
+.col{
+    width: 45%;
 }
